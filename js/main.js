@@ -29,6 +29,11 @@ fetch(`https://botw-compendium.herokuapp.com/api/v2/all`)
 .then(res => res.json()) // parse response as JSON
 .then(data => {
   console.log(data)
+  console.log(data.data.creatures)
+  console.log(data.data.equipment)
+  console.log(data.data.materials)
+  console.log(data.data.monsters)
+  console.log(data.data.treasure)
 
 })
 .catch(err => {
