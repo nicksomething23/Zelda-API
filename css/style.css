@@ -1,0 +1,57 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'HyliaSerifBeta-Regular';
+  src: url(/assets/HyliaSerifBeta-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 19%;
+}
+
+.card {
+  width: 70vw;
+  margin: auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+html {
+  background-image: url(../img/4689582.jpg);
+  background-size: cover;
+  font-size: 62.5%;
+  text-align: center;
+  color: oldlace;
+  font-family: 'HyliaSerifBeta-Regular';
+}
+
+h3,input, button {
+  font-size: 3em;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: normal;
+}
